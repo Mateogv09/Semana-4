@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="formulario">
+ <form action="formulario" method="post"></form>
+ 
+ <label for="name">Nombre completo:</label><br>
+ <input type="text" id="name"><br>
+
+ <label for="age">Edad:</label><br>
+ <input type="number" id="age"><br>
+
+ <label for="tel">telefono</label><br>
+ <input type="tel" name="telefono" id="tel"><br>
+
+ <label for="gmail">Correo electronico:</label><br>
+ <input type="email" name="correo" id="gmail"><br>
+
+ <label for="sex">sexo:</label><br>
+  <input type="radio" name="genero" id="hombre" value="hombre">
+  <label for="hombre">hombre</label><br>
+  <input type="radio" name="genero" id="mujer" value="mujer">
+  <label for="mujer">Mujer</label><br>
+
+  <label for="estudio">Nivel de estudio:</label><br>
+  <select name="studio" id="studio">
+  <option value="primaria">Primaria</option>
+  <option value="secundaria">Secundaria</option>
+  <option value="tecnica">Tecnico</option>
+  <option value="tecnologo">Tecnologo</option>
+  <option value="maestria">Maestria</option>
+
+  </select><br>
+
+  <label for="user">Usuario:</label>
+  <input type="text" id="user" placeholder="Usuario"><br>
+
+  <label for="password">Contraseña:</label>
+  <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña"><br>
+
+  <input type="submit" value="enviar" >
+
+ </div>
+ 
+</body>
+</html>
